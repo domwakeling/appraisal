@@ -1,3 +1,4 @@
+import { red } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles({
@@ -49,4 +50,8 @@ export default makeStyles({
         display: 'flex',
         justifyContent: 'space-between',
     },
+    cardBodyText: {
+        paddingTop: '4px',
+        paddingBottom: '4px'
+    }
 });

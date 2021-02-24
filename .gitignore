@@ -11,6 +11,9 @@ coverage/
 # production
 build/
 
+# local design files
+_design/
+
 # misc
 .DS_Store
 .env.local
