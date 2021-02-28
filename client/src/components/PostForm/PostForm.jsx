@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TextField, Button, Typography, Paper } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
-import useStyles from './styles';
+import useStyles from '../../styles/postform_styles';
 import { createPost } from '../../actions/posts';
 
 const PostForm = () => {

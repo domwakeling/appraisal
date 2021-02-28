@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import { getPosts } from './actions/posts';
 import Posts from './components/Posts/Posts.jsx';
 import PostForm from './components/PostForm/PostForm.jsx';
-import useStyles from './styles';
+import useStyles from './styles/app_styles.js';
 
 const App = () => {
     const classes = useStyles();

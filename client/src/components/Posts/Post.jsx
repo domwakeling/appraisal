@@ -3,7 +3,7 @@ import { Card, CardActions, CardContent, Button, Typography} from '@material-ui/
 import DeleteIcon from '@material-ui/icons/Delete';
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 
-import useStyles from './styles';
+import useStyles from '../../styles/post_styles';
 
 const Post = (props) => {
     const { post } = props;
